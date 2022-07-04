@@ -1,0 +1,231 @@
+._content {
+  margin-top: 150px;
+  padding: 40px 0;
+  border-top: 1px solid #d9d9d9;
+}
+
+._innerWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+._innerWrap ._logo {
+  width: 12.25rem;
+  height: 1.875rem;
+  margin-top: 10px;
+  background-image: url(../../assets/images/footer_logo.png);
+  background-size: contain;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+._innerWrap ._contactBox {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  width: 40%;
+  margin: 0 2.5rem;
+  padding: 0 2.5rem;
+  border-left: 1px dashed #999;
+  border-right: 1px dashed #999;
+  line-height: 1.5rem;
+}
+
+._innerWrap ._contactBox p {
+  position: relative;
+  padding-left: 25px;
+  margin-top: 25px;
+}
+
+._innerWrap ._contactBox p:first-child {
+  margin-top: 0;
+}
+
+._innerWrap ._contactBox i {
+  position: absolute;
+  left: 0;
+  top: 5px;
+}
+._innerWrap ._contactBox a {
+  display: block;
+  margin-top: 5px;
+}
+
+._innerWrap ._contactBox a:first-child {
+  margin-top: 0;
+}
+
+._innerWrap ._socialBox {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  position: relative;
+  width: 36.6666%;
+  margin-left: auto;
+  text-align: right;
+}
+._content ._innerWrap > div:not(._logo) {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+._socialBox ._utils {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+._socialBox ._utils li {
+  margin-top: 13px;
+}
+
+._socialBox ._utils a {
+  font-weight: 900;
+}
+
+._socialBox ._mores {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+._socialBox li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+._social li a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+}
+
+._mores ._social {
+  font-size: 0;
+}
+
+._mores ._copyright {
+  margin-top: 20px;
+  color: #999;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+}
+
+._content ._socialBox ._sns_mail {
+  background-image: url(../../assets/ico/icon_mail.png);
+}
+
+._content ._socialBox ._sns_yu {
+  background-image: url(../../assets/ico/icon_youtube.png);
+}
+
+._content ._socialBox ._sns_fb {
+  background-image: url(../../assets/ico/icon_facebook.png);
+}
+
+._content ._socialBox ._sns_tw {
+  background-image: url(../../assets/ico/icon_twitter.png);
+}
+
+._content ._socialBox ._sns_in {
+  background-image: url(../../assets/ico/icon_instargram.png);
+}
+
+/* icons */
+
+._ic_loca {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../assets/ico/icon_location.png);
+  background-size: 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+._ic_call {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../assets/ico/icon_call.png);
+  background-size: cover;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+}
+
+._ic_mail {
+  width: 16px;
+  height: 16px;
+  background-image: url(../../assets/ico/icon_mail.png);
+  background-size: cover;
+  background-position: 0 center;
+  background-repeat: no-repeat;
+}
+/* end icons */
+
+@media (max-width: 1240px) {
+  ._content {
+    margin-top: 40px;
+  }
+
+  ._innerWrap {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  ._innerWrap ._logo {
+    width: 8.5 rem;
+    margin-top: 0;
+  }
+
+  ._innerWrap ._contactBox {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  ._content ._innerWrap > div:not(._logo) {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+
+  ._contactBox p:first-child {
+    margin-top: 15px !important;
+  }
+  ._contactBox p {
+    margin-top: 15px;
+  }
+
+  ._innerWrap ._socialBox {
+    width: 100%;
+    border-top: 1px dotted #999;
+    margin-top: 30px;
+    text-align: left;
+  }
+
+  ._socialBox ._utils {
+    margin-top: 25px;
+  }
+
+  ._socialBox ._mores {
+    position: relative;
+    margin-top: 40px;
+  }
+  ._mores ._social li {
+    margin-left: 0;
+    margin-right: 30px;
+  }
+
+  ._content ._logo {
+    width: 8.5rem;
+    margin-top: 0;
+  }
+
+  ._ic_loca {
+    background-size: cover;
+  }
+}

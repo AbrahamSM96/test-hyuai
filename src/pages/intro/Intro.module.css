@@ -1,0 +1,664 @@
+/* ------------------  section1  ------------------ */
+._wrap1 {
+  padding-top: 6.202%;
+  padding-bottom: 6.202%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+._group:last-child {
+  margin-top: 120px;
+}
+
+._group h3 {
+  max-width: 920px;
+  margin: 0 auto 20px;
+  text-align: center;
+  color: #000;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+}
+
+._group p {
+  max-width: 920px;
+  margin: 0 auto 20px;
+  text-align: center;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 40px;
+}
+
+._group ._btn_blue {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+._btn_blue button {
+  width: 350px;
+  background-color: #0e306c;
+  color: #fff;
+  display: inline-block;
+  min-width: 100px;
+  padding: 0 10px;
+  height: 65px;
+  line-height: 65px;
+  font-size: 1.375rem;
+  font-weight: 600;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+  text-align: center;
+}
+
+._group ._benefit_list {
+  display: flex;
+}
+._benefit_list li {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+  padding: 40px 45px 45px;
+  background-color: #f4f4f4;
+}
+
+._benefit_list i {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+._benefit_list i img {
+  width: 100%;
+  height: 100%;
+}
+
+._benefit_list em {
+  display: block;
+  margin-top: 30px;
+  font-weight: 900;
+  font-size: 1.375rem;
+  text-align: center;
+  line-height: 1.875rem;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+}
+
+._benefit_list p {
+  margin-top: 10px;
+  text-align: center;
+  line-height: 1.5rem;
+}
+/* ------------------  end section  ------------------ */
+
+/*------------------ Section2 gray ------------------ */
+
+._sectionGray {
+  background-color: #f4f4f4;
+}
+
+._wrap1 ._contentTitle_gray {
+  max-width: 920px;
+  margin: 0 auto 20px;
+  text-align: center;
+  margin-bottom: 6px;
+  color: #000;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+}
+
+._accordion_wrap {
+  overflow: hidden;
+  position: relative;
+  height: 400px;
+  margin-top: 40px;
+}
+
+._accordion_wrap ._item {
+  overflow: visible;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto !important;
+  border: 0;
+}
+
+._accordion_wrap ._item ._head {
+  position: relative;
+  left: 0;
+  width: 31.7%;
+  height: 80px;
+  padding: 0;
+  background-color: #0e306c;
+}
+
+._item ._head button {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 80px;
+  min-height: auto;
+  padding: 0 20px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+._accordion_wrap ._item[data-status="expanded"] ._head::before {
+  position: absolute;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  right: 0;
+  bottom: -1px;
+  background-color: #fff;
+}
+._accordion_wrap ._item:not([data-status="expanded"]) ._panel {
+  display: none;
+}
+
+._item ._head {
+  left: 0;
+  width: 31.7%;
+  height: 80px;
+  padding: 0;
+  background-color: #0e306c;
+}
+
+._item:nth-child(1) ._head {
+  top: 0;
+}
+
+._item:not(:last-child) ._head {
+  border-bottom: 1px dashed #999;
+}
+
+._item[data-status="expanded"] ._head button {
+  color: #0e306c;
+}
+
+._head button span {
+  font-weight: 600;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+  color: inherit;
+}
+
+._head button em {
+  margin-left: 16px;
+  color: inherit;
+}
+
+._item ._panel {
+  left: calc(31.7% + 10px);
+  top: 0;
+  right: 0;
+  height: 400px;
+  padding: 50px 56px 50px 70px;
+  background-color: #fff;
+  position: absolute;
+}
+
+._panel em {
+  display: block;
+  margin-top: 5px;
+  font-weight: 900;
+  font-size: 1.875rem;
+}
+
+._panel p {
+  position: relative;
+  margin-top: 107px;
+  padding-top: 18px;
+  line-height: 1.5rem;
+}
+
+._panel p::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 25px;
+  height: 3px;
+  background-color: #000;
+}
+/* ------------------  End section 2 gray ------------------  */
+
+/* ------------------  section 3 asks ------------------  */
+
+._wrap2 {
+  padding-top: 6.202%;
+  padding-bottom: 6.202%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+._wrap2 h3 {
+  max-width: 920px;
+  margin: 0 auto 20px;
+  text-align: center;
+  color: #000;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+}
+
+._wrap2 ._content {
+  max-width: 920px;
+  margin: 0 auto 20px;
+  text-align: center;
+  color: #000;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+._accordion_wrap2 ._item2 {
+  box-sizing: content-box;
+  overflow: hidden;
+  border-left: 1px solid #d9d9d9;
+  border-right: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  cursor: pointer;
+}
+
+._accordion_wrap2 ._item2:first-child {
+  border-top: 1px solid #d9d9d9;
+}
+
+._item2 ._head2 {
+  padding: 0 40px;
+  text-decoration: none;
+  outline: 0;
+  cursor: pointer;
+}
+
+._head2 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  min-height: 80px;
+  padding: 27px 30px 26px 0;
+  font-size: 1.375rem;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+  cursor: pointer;
+}
+
+._head2 span i {
+  top: 50%;
+  right: 0;
+  position: absolute;
+  display: inline-block;
+  width: 16px;
+  height: 9px;
+  overflow: hidden;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+._head2 span i::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 7px;
+  height: 7px;
+  -webkit-transform: translate(-50%, -50%) scale(1, 1.125) rotate(45deg);
+  transform: translate(-50%, -50%) scale(1, 1.125) rotate(45deg);
+  margin-top: -3px;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+
+._item2[data-status="expanded"] ._panel2 {
+  display: block;
+}
+._item2[data-status="expanded"] ._head2 i {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+._panel2 {
+  display: none;
+}
+
+._item2 ._panel2 {
+  padding: 30px 40px;
+  background-color: #f4f4f4;
+  outline: 0;
+}
+._panel2 p {
+  line-height: 1.5rem;
+}
+
+/* ------------------  End section 3 asks ------------------  */
+/* ------------------  section 4 img ------------------  */
+
+._section4_img {
+  background-image: url("../../assets/images/intro/hyu.jpeg");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: auto 620px;
+  min-height: 1020px;
+}
+
+._section4_img ._wrapSection4 {
+  position: relative;
+  padding-top: 0;
+  text-align: right;
+  z-index: 1;
+}
+
+._wrapSection4 {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding-top: 4.085%;
+}
+._wrapSection4 ._groups4 {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 430px;
+  height: 620px;
+}
+
+._groups4 h3 {
+  margin: 0 0 20px 0;
+  color: #fff;
+  text-align: left;
+  max-width: 920px;
+  font-weight: 900;
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+}
+
+._groups4 h3 span {
+  color: inherit;
+  font-family: inherit;
+  font-weight: normal;
+  font-size: inherit;
+}
+
+._quickButton ._build {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  padding: 0 25px;
+  border: 1px solid #fff;
+}
+._quickButton i {
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+._build span {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 1.125rem;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+}
+
+._build i {
+  background-image: url("../../assets/images/intro/icon_build.png");
+}
+._quickButton a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  padding: 0 25px;
+  border: 1px solid #fff;
+}
+
+._quickButton a i {
+  background-image: url("../../assets/images/intro/icon_inventory.png");
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: cover;
+}
+
+._quickButton a span {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 1.125rem;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+}
+
+._quickButton ._estimate {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 75px;
+  padding: 0 25px;
+  border: 1px solid #fff;
+}
+
+._estimate i {
+  background-image: url("../../assets/images/intro/icon_estimate.png");
+}
+
+._estimate span {
+  margin-left: 20px;
+  color: #fff;
+  font-size: 1.125rem;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+}
+
+/* ------------------  End section 4 img ------------------  */
+
+@media (max-width: 1240px) {
+  /* ------------------  Section1 ------------------  */
+  ._wrap1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding: 40px 20px;
+  }
+
+  ._wrap1 h3 {
+    font-size: 1.625rem;
+    line-height: 2.125rem;
+  }
+  ._btn_blue button {
+    width: 100%;
+  }
+
+  ._group ._benefit_list {
+    display: block;
+  }
+  ._benefit_list li {
+    padding: 30px;
+  }
+  ._benefit_list > li:not(:first-child) {
+    margin: 20px 0 0 0;
+  }
+  ._benefit_list em {
+    margin-top: 25px;
+  }
+  ._benefit_list p {
+    margin-top: 15px;
+  }
+  /*------------------  End section1  ------------------ */
+  /*------------------  section 2 gray  ------------------ */
+  ._wrap1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  ._wrap1 ._contentTitle_gray {
+    font-size: 1.625rem;
+    line-height: 2.125rem;
+  }
+  ._accordion_wrap {
+    height: auto;
+  }
+  ._accordion_wrap ._item {
+    position: static;
+  }
+  ._accordion_wrap ._item ._head {
+    top: auto !important;
+    width: auto;
+    height: 90px;
+    position: relative;
+  }
+
+  ._item ._head button {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 100%;
+    height: 90px;
+    padding: 0 30px;
+  }
+  ._head button em {
+    margin-left: 0px;
+  }
+  ._head button::after {
+    content: "";
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid #fff;
+    border-top: 2px solid #fff;
+    -webkit-transform: translateY(-50%) rotate(225deg);
+    transform: translateY(-50%) rotate(225deg);
+  }
+  ._item ._panel {
+    left: 0;
+    height: auto;
+    padding: 0 30px 30px;
+    position: relative;
+  }
+
+  ._panel em {
+    margin-top: 0;
+    font-size: 1.375rem;
+    line-height: 1.875rem;
+  }
+  ._panel p {
+    margin-top: 40px;
+  }
+
+  ._accordion_wrap ._item[data-status="expanded"] ._head {
+    height: 75px;
+  }
+  ._item[data-status="expanded"] ._head button {
+    height: 75px;
+  }
+  ._item[data-status="expanded"] ._head button span {
+    padding-top: 20px;
+    color: #000;
+  }
+  ._item[data-status="expanded"] ._head button em {
+    display: none;
+  }
+  /*------------------ END section 2 gray  ------------------ */
+  /*------------------  section 3 asks  ------------------ */
+  ._wrap2 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding: 40px 20px;
+  }
+
+  ._wrap2 h3 {
+    font-size: 1.625rem;
+    line-height: 2.125rem;
+  }
+
+  ._item2 ._head2 {
+    padding: 0px 25px;
+  }
+
+  ._head2 span {
+    font-size: 1rem;
+  }
+
+  ._item2 ._panel2 {
+    padding: 30px 30px 40px;
+  }
+  /*------------------  END section 3 ASKS  ------------------ */
+  /* ------------------  section 4 img ------------------  */
+  ._section4_img {
+    padding-bottom: 80px;
+    background-image: url(../../assets/images/intro/bg_intro_bottom_mo.png);
+    background-size: cover;
+    min-height: auto;
+  }
+
+  ._section4_img ._wrapSection4 {
+    padding: 40px 20px;
+  }
+
+  ._wrapSection4 ._groups4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  ._groups4 h3 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+  ._quickButton span {
+    width: 70%;
+    text-align: left;
+    white-space: pre-wrap;
+  }
+
+  /* ------------------  end section 4 img ------------------  */
+}

@@ -1,0 +1,543 @@
+/* WEBFONT */
+@font-face {
+  font-family: "HyundaiSansHead";
+  src: url("../assets/fonts/HyundaiSansHead-Light.eot");
+  src: url("../assets/fonts/HyundaiSansHead-Light.woff") format("woff"),
+    url("../assets/fonts/HyundaiSansHead-Light.woff2") format("woff2"),
+    url("../assets/fonts/HyundaiSansHead-Light.ttf") format("truetype"),
+    url("../assets/fonts/HyundaiSansHead-Light.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HyundaiSansHead";
+  src: url("../assets/fonts/HyundaiSansHead-Regular.eot");
+  src: url("../assets/fonts/HyundaiSansHead-Regular.woff") format("woff"),
+    url("../assets/fonts/HyundaiSansHead-Regular.woff2") format("woff2"),
+    url("../assets/fonts/HyundaiSansHead-Regular.ttf") format("truetype"),
+    url("../assets/fonts/HyundaiSansHead-Regular.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HyundaiSansHead";
+  src: url("../assets/fonts/HyundaiSansHead-Medium.eot");
+  src: url("../assets/fonts/HyundaiSansHead-Medium.woff") format("woff"),
+    url("../assets/fonts/HyundaiSansHead-Medium.woff2") format("woff2"),
+    url("../assets/fonts/HyundaiSansHead-Medium.ttf") format("truetype"),
+    url("../assets/fonts/HyundaiSansHead-Medium.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HyundaiSansHead";
+  src: url("../assets/fonts/HyundaiSansHead-Bold.eot");
+  src: url("../assets/fonts/HyundaiSansHead-Bold.woff") format("woff"),
+    url("../assets/fonts/HyundaiSansHead-Bold.woff2") format("woff2"),
+    url("../assets/fonts/HyundaiSansHead-Bold.ttf") format("truetype"),
+    url("../assets/fonts/HyundaiSansHead-Bold.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HyundaiSansText";
+  src: url("../assets/fonts/HyundaiSansText-Regular.eot");
+  src: url("../assets/fonts/HyundaiSansText-Regular.woff") format("woff"),
+    url("../assets/fonts/HyundaiSansText-Regular.woff2") format("woff2"),
+    url("../assets/fonts/HyundaiSansText-Regular.ttf") format("truetype"),
+    url("../assets/fonts/HyundaiSansText-Regular.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HyundaiSansText";
+  src: url("../assets/fonts/HyundaiSansText-Medium.eot");
+  src: url("../assets/fonts/HyundaiSansText-Medium.woff") format("woff"),
+    url("../assets/fonts/HyundaiSansText-Medium.woff2") format("woff2"),
+    url("../assets/fonts/HyundaiSansText-Medium.ttf") format("truetype"),
+    url("../assets/fonts/HyundaiSansText-Medium.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HyundaiSansText";
+  src: url("../assets/fonts/HyundaiSansText-Bold.eot");
+  src: url("../assets/fonts/HyundaiSansText-Bold.woff") format("woff"),
+    url("../assets/fonts/HyundaiSansText-Bold.woff2") format("woff2"),
+    url("../assets/fonts/HyundaiSansText-Bold.ttf") format("truetype"),
+    url("../assets/fonts/HyundaiSansText-Bold.eot?#iefix")
+      format("embedded-opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+/** RESET **/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  letter-spacing: 0;
+  word-break: keep-all;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  font-family: "HyundaiSansText", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif;
+  color: #000000;
+  font-weight: normal;
+}
+
+fieldset,
+img,
+textarea {
+  border: 0;
+  outline: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+  display: block;
+}
+
+img {
+  max-width: 100%;
+}
+
+button,
+input {
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: 0;
+}
+
+html,
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-text-size-adjust: 100%;
+  font-family: "HyundaiSansText", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  line-height: 1;
+}
+
+body {
+  scrollbar-arrow-color: #efefef;
+  scrollbar-track-color: #efefef;
+  scrollbar-base-color: #dfdfdf;
+  scrollbar-face-color: #dfdfdf;
+  scrollbar-3dlight-color: #dfdfdf;
+  scrollbar-darkshadow-color: #dfdfdf;
+  scrollbar-highlight-color: #dfdfdf;
+  scrollbar-shadow-color: #dfdfdf;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: rgba(0, 0, 0, 0.04);
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.04);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+address,
+em {
+  font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+div {
+  word-break: keep-all;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+iframe {
+  overflow: hidden;
+  border: 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+input[type="email"] {
+  width: 100%;
+  height: 50px;
+  padding: 9px 15px;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  line-height: 20px;
+  -webkit-appearance: none;
+  color: #000;
+  font-size: 16px;
+  font-family: "HyundaiSansText", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+}
+
+input[type="text"]:not([readonly]):focus,
+input[type="password"]:not([readonly]):focus,
+input[type="number"]:not([readonly]):focus,
+input[type="tel"]:not([readonly]):focus,
+input[type="email"]:not([readonly]):focus {
+  background-color: #fff;
+  border-color: #000000;
+}
+
+input[type="text"][readonly],
+input[type="password"][readonly],
+input[type="number"][readonly],
+input[type="tel"][readonly],
+input[type="email"][readonly] {
+  background-color: #f4f4f4;
+  color: #999999;
+}
+
+input[type="text"][readonly].fc_bk,
+input[type="password"][readonly].fc_bk,
+input[type="number"][readonly].fc_bk,
+input[type="tel"][readonly].fc_bk,
+input[type="email"][readonly].fc_bk {
+  color: #000;
+}
+
+input[type="text"].datepicker[readonly],
+input[type="password"].datepicker[readonly],
+input[type="number"].datepicker[readonly],
+input[type="tel"].datepicker[readonly],
+input[type="email"].datepicker[readonly] {
+  color: #000;
+}
+
+input[type="text"].warn,
+input[type="password"].warn,
+input[type="number"].warn,
+input[type="tel"].warn,
+input[type="email"].warn {
+  position: relative;
+  padding-right: 60px;
+  border-color: #e80710;
+}
+
+input[type="text"].warn:focus,
+input[type="password"].warn:focus,
+input[type="number"].warn:focus,
+input[type="tel"].warn:focus,
+input[type="email"].warn:focus {
+  border-color: #e80710;
+}
+
+input[type="text"]:disabled,
+input[type="password"]:disabled,
+input[type="number"]:disabled,
+input[type="tel"]:disabled,
+input[type="email"]:disabled {
+  background-color: #f4f4f4;
+  border-color: #d9d9d9;
+  color: #999999;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  min-height: 120px;
+  background-color: #ffffff;
+  border: 1px solid #d9d9d9;
+  -webkit-appearance: none;
+  font-size: 16px;
+  font-family: "HyundaiSansText", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+  resize: none;
+}
+
+textarea:not([readonly]):focus {
+  background-color: #fff;
+  border-color: #000000;
+}
+
+textarea[readonly] {
+  background-color: #f4f4f4;
+  color: #999999;
+}
+
+textarea ::-webkit-input-placeholder {
+  font-size: 16px;
+  color: #999;
+}
+
+textarea ::-moz-placeholder {
+  font-size: 16px;
+  color: #999;
+}
+
+textarea ::-moz-placeholder {
+  font-size: 16px;
+  color: #999;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+::-webkit-input-placeholder {
+  font-size: 16px;
+  font-weight: normal;
+  color: #999;
+}
+
+::-moz-placeholder {
+  font-size: 16px;
+  font-weight: normal;
+  color: #999;
+}
+::-moz-placeholder {
+  font-size: 16px;
+  font-weight: normal;
+  color: #999;
+}
+button {
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0);
+  outline: none;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+}
+
+input,
+button,
+select {
+  vertical-align: middle;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 50px;
+  margin: 0;
+  padding: 0 15px;
+  border: 1px solid #d9d9d9;
+  border-radius: 0;
+  background-color: #fff;
+  background-image: url(../assets/ico/icon_selopen.png);
+  background-repeat: no-repeat;
+  background-size: 13px;
+  background-position: right 20px center;
+  outline: none;
+  line-height: 48px;
+  font-size: 16px;
+  font-family: "HyundaiSansText", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+  cursor: pointer;
+}
+
+select:disabled {
+  background-color: #f4f4f4;
+  background-image: url(../assets/ico/icon_selopen-dis.png);
+  border-color: #d9d9d9;
+  color: #999999;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+button {
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  background: transparent;
+  line-height: normal;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  -webkit-appearance: none;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+}
+.a11y {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+}
+
+:root {
+  --blue-hyundai: #0e306c;
+}

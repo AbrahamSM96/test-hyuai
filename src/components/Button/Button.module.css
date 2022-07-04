@@ -1,0 +1,27 @@
+._btn_blue {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+._btn_blue button {
+  width: 350px;
+  background-color: #0e306c;
+  color: #fff;
+  display: inline-block;
+  min-width: 100px;
+  padding: 0 10px;
+  height: 65px;
+  line-height: 65px;
+  font-size: 1.375rem;
+  font-weight: 600;
+  font-family: "HyundaiSansHead", "Malgun Gothic", Dotum, "돋움",
+    AppleGothicNeoSD, "Apple SD 산돌고딕 Neo", "굴림", arial, sans-serif !important;
+  text-align: center;
+}
+
+@media (max-width: 1240px) {
+  ._btn_blue button {
+    width: 100%;
+  }
+}
